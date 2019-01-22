@@ -19,7 +19,7 @@ import java.util.List;
 */
 @ContextConfiguration(locations = {"classpath:application-context.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
-public class test {
+public class Test {
     @Autowired MemberDao memberDao;
 
     @Test
